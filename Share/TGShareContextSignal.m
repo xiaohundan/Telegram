@@ -7,7 +7,7 @@
 #import <CommonCrypto/CommonKeyDerivation.h>
 #import <CommonCrypto/CommonCryptoError.h>
 
-#import "../../config.h"
+//#import "../../config.h"
 
 @implementation TGUnauthorizedShareContext
 
@@ -77,7 +77,7 @@
                         NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
                         
                         int32_t apiId = 0;
-                        SETUP_API_ID(apiId)
+//                        SETUP_API_ID(apiId)
                         
                         if ([bundleIdentifier isEqualToString:@"org.telegram.TelegramEnterprise"])
                             apiEnvironment.apiId = 16352;
