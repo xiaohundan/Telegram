@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247702F91DEC2C2C00FB5DDB /* UIViewController+TGExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 247702F71DEC2C2C00FB5DDB /* UIViewController+TGExtension.h */; };
+		247702FA1DEC2C2C00FB5DDB /* UIViewController+TGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 247702F81DEC2C2C00FB5DDB /* UIViewController+TGExtension.m */; };
+		24E1DDBF1DED221E00BF6E1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB01DED221E00BF6E1F /* Default-568h@2x.png */; };
+		24E1DDC01DED221E00BF6E1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB11DED221E00BF6E1F /* Default@2x.png */; };
+		24E1DDC11DED221E00BF6E1F /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB21DED221E00BF6E1F /* Icon-40@2x.png */; };
+		24E1DDC21DED221E00BF6E1F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB31DED221E00BF6E1F /* Icon-60@2x.png */; };
+		24E1DDC31DED221E00BF6E1F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB41DED221E00BF6E1F /* Icon-72.png */; };
+		24E1DDC41DED221E00BF6E1F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB51DED221E00BF6E1F /* Icon-72@2x.png */; };
+		24E1DDC51DED221E00BF6E1F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB61DED221E00BF6E1F /* Icon-76.png */; };
+		24E1DDC61DED221E00BF6E1F /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB71DED221E00BF6E1F /* Icon-76@2x.png */; };
+		24E1DDC71DED221E00BF6E1F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB81DED221E00BF6E1F /* Icon-Small@2x.png */; };
+		24E1DDC81DED221E00BF6E1F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDB91DED221E00BF6E1F /* Icon.png */; };
+		24E1DDC91DED221E00BF6E1F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDBA1DED221E00BF6E1F /* Icon@2x.png */; };
+		24E1DDCA1DED221E00BF6E1F /* iPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDBB1DED221E00BF6E1F /* iPad-Landscape.png */; };
+		24E1DDCB1DED221E00BF6E1F /* iPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDBC1DED221E00BF6E1F /* iPad-Landscape@2x.png */; };
+		24E1DDCC1DED221E00BF6E1F /* iPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDBD1DED221E00BF6E1F /* iPad-Portrait.png */; };
+		24E1DDCD1DED221E00BF6E1F /* iPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E1DDBE1DED221E00BF6E1F /* iPad-Portrait@2x.png */; };
+		24E6098C1DED5F0500E86228 /* ImageResource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E6098B1DED5F0500E86228 /* ImageResource.xcassets */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6808EA5E1BADBAC200D8E50E /* PGCurvesTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6808EA581BADBAC200D8E50E /* PGCurvesTool.h */; };
 		6808EA5F1BADBAC200D8E50E /* PGCurvesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6808EA591BADBAC200D8E50E /* PGCurvesTool.m */; };
@@ -929,10 +947,7 @@
 		9312321316220E80001E27A6 /* TGActionMediaAttachment+Telegraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 9312321216220E80001E27A6 /* TGActionMediaAttachment+Telegraph.m */; };
 		9312322B1622FECF001E27A6 /* TGJpegTurbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9312322A1622FECF001E27A6 /* TGJpegTurbo.m */; };
 		93137C46185BC741003F4D79 /* TGPhoneLabelPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93137C45185BC741003F4D79 /* TGPhoneLabelPickerController.m */; };
-		9315E4DF186AFC52008DD74D /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315E4DD186AFC52008DD74D /* Icon-40@2x.png */; };
-		9315E4E5186AFE7A008DD74D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */; };
 		931668E9164BC0CA0082AE8E /* TGForwardTargetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931668E8164BC0C90082AE8E /* TGForwardTargetController.m */; };
-		931668EB164BD14B0082AE8E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931668EA164BD14B0082AE8E /* Default@2x.png */; };
 		93192EFB15BED22F0056FCD8 /* TGSendCodeRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 93192EFA15BED22F0056FCD8 /* TGSendCodeRequestBuilder.m */; };
 		931C5938174C0AB800D597D9 /* MenuButtonCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5935174C0AB800D597D9 /* MenuButtonCenter@2x.png */; };
 		931C5939174C0AB800D597D9 /* MenuButtonLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5936174C0AB800D597D9 /* MenuButtonLeft@2x.png */; };
@@ -945,7 +960,6 @@
 		931C594C174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5947174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png */; };
 		931C5951174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C594F174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png */; };
 		931C5952174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931C5950174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png */; };
-		9321E53917B585D7005229AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9321E53817B585D7005229AC /* Icon.png */; };
 		9321E9D916A9280100F9D09C /* TGCommentMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9D816A9280100F9D09C /* TGCommentMenuItem.m */; };
 		9321E9DC16A9289600F9D09C /* TGCommentMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9DB16A9289600F9D09C /* TGCommentMenuItemView.m */; };
 		9321E9E216A98FF600F9D09C /* TGCheckImageStoredActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321E9E116A98FF600F9D09C /* TGCheckImageStoredActor.m */; };
@@ -1260,10 +1274,8 @@
 		93B2388616B58CD100DB8F5E /* TGGroupedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B2388516B58CCF00DB8F5E /* TGGroupedCell.m */; };
 		93B532A6160BEA3000A16903 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B532A5160BEA3000A16903 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		93B77683184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B77682184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m */; };
-		93BB2237180D986600342583 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BB2236180D986600342583 /* Icon-60@2x.png */; };
 		93C03F1917C4EC5A00A077C4 /* UIDevice+PlatformInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C03F1817C4EC5A00A077C4 /* UIDevice+PlatformInfo.m */; };
 		93C03F1D17C54E5F00A077C4 /* TGProfilePhotoListActor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93C03F1C17C54E5F00A077C4 /* TGProfilePhotoListActor.mm */; };
-		93C0B3C31602533B0034D542 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C0B3C21602533B0034D542 /* Default-568h@2x.png */; };
 		93C1AF6216C4641A00710640 /* TGSynchronizeContactsActor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93C1AF6116C4641A00710640 /* TGSynchronizeContactsActor.mm */; };
 		93C23073183BB8E00071CB58 /* TGModernConversationAvatarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C23072183BB8E00071CB58 /* TGModernConversationAvatarButton.m */; };
 		93C23075183C31D60071CB58 /* ModernMessageImageBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93C23074183C31D60071CB58 /* ModernMessageImageBorder@2x.png */; };
@@ -2815,7 +2827,6 @@
 		D098419919CB9C9C00CE5BB0 /* ActionStage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D098419819CB9C9C00CE5BB0 /* ActionStage.mm */; };
 		D0984E42189BC5C40042E1BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0984E3E189BC5C40042E1BD /* InfoPlist.strings */; };
 		D0984E43189BC5C40042E1BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0984E40189BC5C40042E1BD /* Localizable.strings */; };
-		D09A218815C9CF5100023542 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09A218715C9CF5100023542 /* Icon@2x.png */; };
 		D09A6B6F1C1A054600134687 /* TLMessages_BotResults$botResults.h in Headers */ = {isa = PBXBuildFile; fileRef = D09A6B6D1C1A054600134687 /* TLMessages_BotResults$botResults.h */; };
 		D09A6B701C1A054600134687 /* TLMessages_BotResults$botResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = D09A6B6E1C1A054600134687 /* TLMessages_BotResults$botResults.mm */; };
 		D09C750419EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C750319EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.m */; };
@@ -2836,8 +2847,6 @@
 		D09EE2C0193484D200980617 /* ModernBubbleIncomingFullPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE2BC193484D200980617 /* ModernBubbleIncomingFullPad@2x.png */; };
 		D09EE2C8193794F100980617 /* TGColorWallpaperInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EE2C7193794F100980617 /* TGColorWallpaperInfo.m */; };
 		D09EE2CD193799F500980617 /* TGColorImageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EE2CC193799F500980617 /* TGColorImageDataSource.m */; };
-		D09EE2E1193A95ED00980617 /* iPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE2DF193A95ED00980617 /* iPad-Portrait@2x.png */; };
-		D09EE2E2193A95ED00980617 /* iPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09EE2E0193A95ED00980617 /* iPad-Landscape@2x.png */; };
 		D09FC0141A2731550075D7BD /* TGCheckPasswordActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D09FC0131A2731550075D7BD /* TGCheckPasswordActor.m */; };
 		D09FC0311A2768BF0075D7BD /* TGDeleteAccountActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D09FC0301A2768BF0075D7BD /* TGDeleteAccountActor.m */; };
 		D09FD6C01BA9971900FF0A4F /* TLChannelParticipantRole.h in Headers */ = {isa = PBXBuildFile; fileRef = D09FD6B81BA9971900FF0A4F /* TLChannelParticipantRole.h */; };
@@ -2962,8 +2971,6 @@
 		D0A4D8051C11D19900537E74 /* TGDocumentFileReference.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4D8031C11D19900537E74 /* TGDocumentFileReference.h */; };
 		D0A4D8091C11D1F000537E74 /* TGDocumentHttpFileReference.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4D8071C11D1F000537E74 /* TGDocumentHttpFileReference.h */; };
 		D0A4D80A1C11D1F000537E74 /* TGDocumentHttpFileReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D8081C11D1F000537E74 /* TGDocumentHttpFileReference.m */; };
-		D0A516C8193FD7E9000B8984 /* iPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A516C6193FD7E9000B8984 /* iPad-Landscape.png */; };
-		D0A516C9193FD7E9000B8984 /* iPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A516C7193FD7E9000B8984 /* iPad-Portrait.png */; };
 		D0A516CC193FD848000B8984 /* DetailLogoBlank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A516CA193FD848000B8984 /* DetailLogoBlank@2x.png */; };
 		D0A516CD193FD848000B8984 /* DetailLogoBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A516CB193FD848000B8984 /* DetailLogoBlank.png */; };
 		D0A54B3D19B9F0C600886B73 /* TGLoadConversationAndHistoryForSearchActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A54B3C19B9F0C600886B73 /* TGLoadConversationAndHistoryForSearchActor.m */; };
@@ -3296,7 +3303,6 @@
 		D0D43CF91BA0A8D400F6C78F /* NSArray_ChannelParticipant.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0D43CEF1BA0A8D400F6C78F /* NSArray_ChannelParticipant.mm */; };
 		D0D43CFC1BA0A8D400F6C78F /* TLupdates_ChannelDifference.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D43CF21BA0A8D400F6C78F /* TLupdates_ChannelDifference.h */; };
 		D0D43CFD1BA0A8D400F6C78F /* TLupdates_ChannelDifference.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0D43CF31BA0A8D400F6C78F /* TLupdates_ChannelDifference.mm */; };
-		D0D443B8195315D500CF2A7E /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D443B7195315D500CF2A7E /* Icon-76@2x.png */; };
 		D0D541BA1B862F8F005F676C /* TLMessageGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D541AA1B862F8F005F676C /* TLMessageGroup.h */; };
 		D0D541BB1B862F8F005F676C /* TLMessageGroup.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0D541AB1B862F8F005F676C /* TLMessageGroup.mm */; };
 		D0D541C71B8632E9005F676C /* TLMessage$modernMessageService.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D541C51B8632E9005F676C /* TLMessage$modernMessageService.h */; };
@@ -3332,9 +3338,6 @@
 		D0DA76AF193BDD9E00157F4B /* TGFileThumbnailDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA76AE193BDD9E00157F4B /* TGFileThumbnailDataSource.m */; };
 		D0DA8C401ACF5EBD00606990 /* TGArticleWebpageFooterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DA8C3E1ACF5EBD00606990 /* TGArticleWebpageFooterModel.h */; };
 		D0DA8C411ACF5EBD00606990 /* TGArticleWebpageFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DA8C3F1ACF5EBD00606990 /* TGArticleWebpageFooterModel.m */; };
-		D0DAA481197495A80036E709 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA480197495A80036E709 /* Icon-72.png */; };
-		D0DAA483197495EA0036E709 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA482197495EA0036E709 /* Icon-72@2x.png */; };
-		D0DAA485197496240036E709 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DAA484197496240036E709 /* Icon-76.png */; };
 		D0DB05BE1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DB05BC1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h */; };
 		D0DB05BF1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB05BD1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m */; };
 		D0DB965B18DC85030013B9DC /* TGDownloadLocalizationActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DB965A18DC85030013B9DC /* TGDownloadLocalizationActor.m */; };
@@ -3893,6 +3896,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		247702F71DEC2C2C00FB5DDB /* UIViewController+TGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TGExtension.h"; sourceTree = "<group>"; };
+		247702F81DEC2C2C00FB5DDB /* UIViewController+TGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TGExtension.m"; sourceTree = "<group>"; };
+		24E1DDB01DED221E00BF6E1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24E1DDB11DED221E00BF6E1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		24E1DDB21DED221E00BF6E1F /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		24E1DDB31DED221E00BF6E1F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		24E1DDB41DED221E00BF6E1F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		24E1DDB51DED221E00BF6E1F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		24E1DDB61DED221E00BF6E1F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		24E1DDB71DED221E00BF6E1F /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		24E1DDB81DED221E00BF6E1F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		24E1DDB91DED221E00BF6E1F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		24E1DDBA1DED221E00BF6E1F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		24E1DDBB1DED221E00BF6E1F /* iPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Landscape.png"; sourceTree = "<group>"; };
+		24E1DDBC1DED221E00BF6E1F /* iPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Landscape@2x.png"; sourceTree = "<group>"; };
+		24E1DDBD1DED221E00BF6E1F /* iPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Portrait.png"; sourceTree = "<group>"; };
+		24E1DDBE1DED221E00BF6E1F /* iPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Portrait@2x.png"; sourceTree = "<group>"; };
+		24E6098B1DED5F0500E86228 /* ImageResource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageResource.xcassets; sourceTree = "<group>"; };
 		6808EA581BADBAC200D8E50E /* PGCurvesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGCurvesTool.h; path = thirdparty/PGPhotoEditor/PGCurvesTool.h; sourceTree = SOURCE_ROOT; };
 		6808EA591BADBAC200D8E50E /* PGCurvesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGCurvesTool.m; path = thirdparty/PGPhotoEditor/PGCurvesTool.m; sourceTree = SOURCE_ROOT; };
 		6808EA5A1BADBAC200D8E50E /* PGFadeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGFadeTool.h; path = thirdparty/PGPhotoEditor/PGFadeTool.h; sourceTree = SOURCE_ROOT; };
@@ -5028,11 +5049,8 @@
 		9312322A1622FECF001E27A6 /* TGJpegTurbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGJpegTurbo.m; sourceTree = "<group>"; };
 		93137C44185BC741003F4D79 /* TGPhoneLabelPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhoneLabelPickerController.h; sourceTree = "<group>"; };
 		93137C45185BC741003F4D79 /* TGPhoneLabelPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhoneLabelPickerController.m; sourceTree = "<group>"; };
-		9315E4DD186AFC52008DD74D /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		931668E7164BC0C90082AE8E /* TGForwardTargetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGForwardTargetController.h; sourceTree = "<group>"; };
 		931668E8164BC0C90082AE8E /* TGForwardTargetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGForwardTargetController.m; sourceTree = "<group>"; };
-		931668EA164BD14B0082AE8E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		93192EF915BED22F0056FCD8 /* TGSendCodeRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSendCodeRequestBuilder.h; sourceTree = "<group>"; };
 		93192EFA15BED22F0056FCD8 /* TGSendCodeRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSendCodeRequestBuilder.m; sourceTree = "<group>"; };
 		931C5935174C0AB800D597D9 /* MenuButtonCenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuButtonCenter@2x.png"; sourceTree = "<group>"; };
@@ -5046,7 +5064,6 @@
 		931C5947174CC85200D597D9 /* MenuButtonCenter_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuButtonCenter_Highlighted@2x.png"; sourceTree = "<group>"; };
 		931C594F174CC9D500D597D9 /* MenuArrowTop_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuArrowTop_Highlighted@2x.png"; sourceTree = "<group>"; };
 		931C5950174CC9D500D597D9 /* MenuArrowBottom_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuArrowBottom_Highlighted@2x.png"; sourceTree = "<group>"; };
-		9321E53817B585D7005229AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		9321E9D716A9280100F9D09C /* TGCommentMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCommentMenuItem.h; sourceTree = "<group>"; };
 		9321E9D816A9280100F9D09C /* TGCommentMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCommentMenuItem.m; sourceTree = "<group>"; };
 		9321E9DA16A9289600F9D09C /* TGCommentMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCommentMenuItemView.h; sourceTree = "<group>"; };
@@ -5545,12 +5562,10 @@
 		93B532A5160BEA3000A16903 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		93B77681184DF19F00C81651 /* TGModernConversationGroupTitlePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationGroupTitlePanel.h; sourceTree = "<group>"; };
 		93B77682184DF19F00C81651 /* TGModernConversationGroupTitlePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationGroupTitlePanel.m; sourceTree = "<group>"; };
-		93BB2236180D986600342583 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		93C03F1717C4EC5A00A077C4 /* UIDevice+PlatformInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PlatformInfo.h"; sourceTree = "<group>"; };
 		93C03F1817C4EC5A00A077C4 /* UIDevice+PlatformInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PlatformInfo.m"; sourceTree = "<group>"; };
 		93C03F1B17C54E5F00A077C4 /* TGProfilePhotoListActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGProfilePhotoListActor.h; sourceTree = "<group>"; };
 		93C03F1C17C54E5F00A077C4 /* TGProfilePhotoListActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGProfilePhotoListActor.mm; sourceTree = "<group>"; };
-		93C0B3C21602533B0034D542 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		93C1AF6016C4641A00710640 /* TGSynchronizeContactsActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSynchronizeContactsActor.h; sourceTree = "<group>"; };
 		93C1AF6116C4641A00710640 /* TGSynchronizeContactsActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGSynchronizeContactsActor.mm; sourceTree = "<group>"; };
 		93C23071183BB8E00071CB58 /* TGModernConversationAvatarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationAvatarButton.h; sourceTree = "<group>"; };
@@ -7827,7 +7842,6 @@
 		D098419819CB9C9C00CE5BB0 /* ActionStage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ActionStage.mm; sourceTree = "<group>"; };
 		D0984E3F189BC5C40042E1BD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D0984E41189BC5C40042E1BD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
-		D09A218715C9CF5100023542 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		D09A6B6D1C1A054600134687 /* TLMessages_BotResults$botResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessages_BotResults$botResults.h; sourceTree = "<group>"; };
 		D09A6B6E1C1A054600134687 /* TLMessages_BotResults$botResults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMessages_BotResults$botResults.mm; sourceTree = "<group>"; };
 		D09C750219EFC3EB00BF51BC /* TGSecretInfiniteLifetimePeerMediaGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSecretInfiniteLifetimePeerMediaGalleryModel.h; sourceTree = "<group>"; };
@@ -7862,8 +7876,6 @@
 		D09EE2C7193794F100980617 /* TGColorWallpaperInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGColorWallpaperInfo.m; sourceTree = "<group>"; };
 		D09EE2CB193799F500980617 /* TGColorImageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGColorImageDataSource.h; sourceTree = "<group>"; };
 		D09EE2CC193799F500980617 /* TGColorImageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGColorImageDataSource.m; sourceTree = "<group>"; };
-		D09EE2DF193A95ED00980617 /* iPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Portrait@2x.png"; sourceTree = "<group>"; };
-		D09EE2E0193A95ED00980617 /* iPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Landscape@2x.png"; sourceTree = "<group>"; };
 		D09FC0121A2731550075D7BD /* TGCheckPasswordActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCheckPasswordActor.h; sourceTree = "<group>"; };
 		D09FC0131A2731550075D7BD /* TGCheckPasswordActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCheckPasswordActor.m; sourceTree = "<group>"; };
 		D09FC02F1A2768BF0075D7BD /* TGDeleteAccountActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDeleteAccountActor.h; sourceTree = "<group>"; };
@@ -7991,8 +8003,6 @@
 		D0A4D8031C11D19900537E74 /* TGDocumentFileReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDocumentFileReference.h; sourceTree = "<group>"; };
 		D0A4D8071C11D1F000537E74 /* TGDocumentHttpFileReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDocumentHttpFileReference.h; sourceTree = "<group>"; };
 		D0A4D8081C11D1F000537E74 /* TGDocumentHttpFileReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDocumentHttpFileReference.m; sourceTree = "<group>"; };
-		D0A516C6193FD7E9000B8984 /* iPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Landscape.png"; sourceTree = "<group>"; };
-		D0A516C7193FD7E9000B8984 /* iPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Portrait.png"; sourceTree = "<group>"; };
 		D0A516CA193FD848000B8984 /* DetailLogoBlank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DetailLogoBlank@2x.png"; path = "Resources/DetailLogoBlank@2x.png"; sourceTree = "<group>"; };
 		D0A516CB193FD848000B8984 /* DetailLogoBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailLogoBlank.png; path = Resources/DetailLogoBlank.png; sourceTree = "<group>"; };
 		D0A54B3B19B9F0C600886B73 /* TGLoadConversationAndHistoryForSearchActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLoadConversationAndHistoryForSearchActor.h; sourceTree = "<group>"; };
@@ -8389,7 +8399,6 @@
 		D0D43CEF1BA0A8D400F6C78F /* NSArray_ChannelParticipant.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NSArray_ChannelParticipant.mm; sourceTree = "<group>"; };
 		D0D43CF21BA0A8D400F6C78F /* TLupdates_ChannelDifference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLupdates_ChannelDifference.h; sourceTree = "<group>"; };
 		D0D43CF31BA0A8D400F6C78F /* TLupdates_ChannelDifference.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLupdates_ChannelDifference.mm; sourceTree = "<group>"; };
-		D0D443B7195315D500CF2A7E /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
 		D0D5419A1B8628FC005F676C /* TGPeerIdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPeerIdAdapter.h; sourceTree = "<group>"; };
 		D0D541AA1B862F8F005F676C /* TLMessageGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMessageGroup.h; sourceTree = "<group>"; };
 		D0D541AB1B862F8F005F676C /* TLMessageGroup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMessageGroup.mm; sourceTree = "<group>"; };
@@ -8427,9 +8436,6 @@
 		D0DA76AE193BDD9E00157F4B /* TGFileThumbnailDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFileThumbnailDataSource.m; sourceTree = "<group>"; };
 		D0DA8C3E1ACF5EBD00606990 /* TGArticleWebpageFooterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArticleWebpageFooterModel.h; sourceTree = "<group>"; };
 		D0DA8C3F1ACF5EBD00606990 /* TGArticleWebpageFooterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGArticleWebpageFooterModel.m; sourceTree = "<group>"; };
-		D0DAA480197495A80036E709 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		D0DAA482197495EA0036E709 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		D0DAA484197496240036E709 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
 		D0DB05BC1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGShareSheetSharePeersCaptionView.h; sourceTree = "<group>"; };
 		D0DB05BD1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGShareSheetSharePeersCaptionView.m; sourceTree = "<group>"; };
 		D0DB965918DC85030013B9DC /* TGDownloadLocalizationActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDownloadLocalizationActor.h; sourceTree = "<group>"; };
@@ -8999,6 +9005,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E1DDAF1DED221E00BF6E1F /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				24E1DDB01DED221E00BF6E1F /* Default-568h@2x.png */,
+				24E1DDB11DED221E00BF6E1F /* Default@2x.png */,
+				24E1DDB21DED221E00BF6E1F /* Icon-40@2x.png */,
+				24E1DDB31DED221E00BF6E1F /* Icon-60@2x.png */,
+				24E1DDB41DED221E00BF6E1F /* Icon-72.png */,
+				24E1DDB51DED221E00BF6E1F /* Icon-72@2x.png */,
+				24E1DDB61DED221E00BF6E1F /* Icon-76.png */,
+				24E1DDB71DED221E00BF6E1F /* Icon-76@2x.png */,
+				24E1DDB81DED221E00BF6E1F /* Icon-Small@2x.png */,
+				24E1DDB91DED221E00BF6E1F /* Icon.png */,
+				24E1DDBA1DED221E00BF6E1F /* Icon@2x.png */,
+				24E1DDBB1DED221E00BF6E1F /* iPad-Landscape.png */,
+				24E1DDBC1DED221E00BF6E1F /* iPad-Landscape@2x.png */,
+				24E1DDBD1DED221E00BF6E1F /* iPad-Portrait.png */,
+				24E1DDBE1DED221E00BF6E1F /* iPad-Portrait@2x.png */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
 		6811AE231A35E2E3009309A3 /* Crop */ = {
 			isa = PBXGroup;
 			children = (
@@ -14129,31 +14157,10 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				24E6098B1DED5F0500E86228 /* ImageResource.xcassets */,
+				24E1DDAF1DED221E00BF6E1F /* ImageResource */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
-				D0DAA484197496240036E709 /* Icon-76.png */,
-				D0DAA482197495EA0036E709 /* Icon-72@2x.png */,
-				D0DAA480197495A80036E709 /* Icon-72.png */,
-				D0D443B7195315D500CF2A7E /* Icon-76@2x.png */,
-				D0A516C6193FD7E9000B8984 /* iPad-Landscape.png */,
-				D0A516C7193FD7E9000B8984 /* iPad-Portrait.png */,
-				D09EE2DF193A95ED00980617 /* iPad-Portrait@2x.png */,
-				D09EE2E0193A95ED00980617 /* iPad-Landscape@2x.png */,
-				9315E4E4186AFE7A008DD74D /* Icon-Small@2x.png */,
-				9315E4DD186AFC52008DD74D /* Icon-40@2x.png */,
-				93BB2236180D986600342583 /* Icon-60@2x.png */,
-				9321E53817B585D7005229AC /* Icon.png */,
 				93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */,
-				D054F5681927F675002952ED /* libphonenumber.framework */,
-				933E6A3E170B300100651252 /* MediaPlayer.framework */,
-				93A109BE1705D77A00FE4F89 /* MobileCoreServices.framework */,
-				93AD03CD16A327DE005D4575 /* Accelerate.framework */,
-				9389A8D31697A25A00B68E92 /* AssetsLibrary.framework */,
-				93985170162F8A5A009DBCA5 /* MapKit.framework */,
-				935B6E2F1628850B00A2E265 /* MessageUI.framework */,
-				93362AFA1624797300007FB8 /* CoreTelephony.framework */,
-				93C0B3C21602533B0034D542 /* Default-568h@2x.png */,
-				931668EA164BD14B0082AE8E /* Default@2x.png */,
-				D09A218715C9CF5100023542 /* Icon@2x.png */,
 				D07041FB15891CEF008AA657 /* External */,
 				D08805B6156E8F3600311537 /* Telegraph */,
 				D02601D81A55CA2300716290 /* Share */,
@@ -14177,6 +14184,14 @@
 		D08805AF156E8F3600311537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D054F5681927F675002952ED /* libphonenumber.framework */,
+				933E6A3E170B300100651252 /* MediaPlayer.framework */,
+				93A109BE1705D77A00FE4F89 /* MobileCoreServices.framework */,
+				93AD03CD16A327DE005D4575 /* Accelerate.framework */,
+				9389A8D31697A25A00B68E92 /* AssetsLibrary.framework */,
+				93985170162F8A5A009DBCA5 /* MapKit.framework */,
+				935B6E2F1628850B00A2E265 /* MessageUI.framework */,
+				93362AFA1624797300007FB8 /* CoreTelephony.framework */,
 				D0A4D7A01C0F961B00537E74 /* VideoToolbox.framework */,
 				D0821A2F1BBEA38200CE53BA /* CoreSpotlight.framework */,
 				685CEA611BB5B12200393946 /* ContactsUI.framework */,
@@ -14242,6 +14257,8 @@
 				D08805D1156E8F7400311537 /* Core */,
 				68744C0A1BB1A87900FE6542 /* Bridge */,
 				D08805B7156E8F3600311537 /* Supporting Files */,
+				247702F71DEC2C2C00FB5DDB /* UIViewController+TGExtension.h */,
+				247702F81DEC2C2C00FB5DDB /* UIViewController+TGExtension.m */,
 			);
 			path = Telegraph;
 			sourceTree = "<group>";
@@ -18037,6 +18054,7 @@
 				D0C5AAF31AB5B34A00F209D7 /* TLUpdates$modernUpdateShortMessage.h in Headers */,
 				68E45AF21A30CA18001AFE63 /* TGModernGalleryEditableItem.h in Headers */,
 				68B657381C315006008DFFE2 /* TGMediaAssetContentProperty.h in Headers */,
+				247702F91DEC2C2C00FB5DDB /* UIViewController+TGExtension.h in Headers */,
 				D0FC07031B1C38DD008CC3BB /* TLDcOption$modernDcOption.h in Headers */,
 				681EACE31A28FFA800E7C40C /* PGVignetteTool.h in Headers */,
 				683A02BB1A6ED590004ADD35 /* PGPhotoEditorValues.h in Headers */,
@@ -18921,11 +18939,10 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TG;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					68744C0C1BB1A9F700FE6542 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = X834Q8SBVP;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -18934,7 +18951,6 @@
 					};
 					68744C181BB1A9F700FE6542 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = X834Q8SBVP;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -18943,7 +18959,6 @@
 					};
 					D02601D61A55CA2300716290 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = X834Q8SBVP;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -18951,7 +18966,6 @@
 						};
 					};
 					D08805AB156E8F3600311537 = {
-						DevelopmentTeam = X834Q8SBVP;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -19183,7 +19197,6 @@
 				D04ABC011A3B3C2A00869014 /* ListsDownDisclosureIndicator.png in Resources */,
 				D0BD441818B78DF90036FB8B /* ModernMessageAudioCancel_Outgoing@2x.png in Resources */,
 				93C52F6B18621C2E008229A7 /* ModernMessageDocumentGenericIcon@2x.png in Resources */,
-				D09A218815C9CF5100023542 /* Icon@2x.png in Resources */,
 				D051AFC91AF7D4BE003AFD52 /* ConversationInputFieldStickerIcon@3x.png in Resources */,
 				686ED28E1BF0F458001F2F96 /* MediaGroupFavorites@2x.png in Resources */,
 				68B22D2C1C171BD300EE8FF9 /* SettingsStickersIcon@2x.png in Resources */,
@@ -19212,14 +19225,15 @@
 				D0EC6CAD15E4618100E7E687 /* DialogListGroupChatIcon@2x.png in Resources */,
 				D0D5D0011B7A69AD00DAF839 /* SharedMediaEmptyLinks@3x.png in Resources */,
 				D00C79231BBCA4CA00F979C8 /* HockeySDKResources.bundle in Resources */,
+				24E1DDC61DED221E00BF6E1F /* Icon-76@2x.png in Resources */,
 				930808BA18592DAA00E62B42 /* ModernContactListCreateGroupIcon@2x.png in Resources */,
 				93992D8E182A706C00F29746 /* ModernBubbleOutgoingPartial@2x.png in Resources */,
 				D0A102401A7D7A0600CD85A5 /* SharedMediaListItemCheck@2x.png in Resources */,
 				934134BC18551FF500480294 /* builtin-wallpaper-2-thumbnail.jpg in Resources */,
-				D0A516C8193FD7E9000B8984 /* iPad-Landscape.png in Resources */,
 				D0A1023D1A7D7A0600CD85A5 /* SharedMediaListItemCheck@3x.png in Resources */,
 				68B22D2B1C171BD300EE8FF9 /* SettingsPrivacyIcon@2x.png in Resources */,
 				D0F9DD271BE917FE004E45B2 /* GroupInfoIconUpgrade@2x.png in Resources */,
+				24E1DDC51DED221E00BF6E1F /* Icon-76.png in Resources */,
 				930808B71859253D00E62B42 /* ModernContactListCreateSecretChatIcon@2x.png in Resources */,
 				93992D6D182922DD00F29746 /* ModernMessageCheckmark2@2x.png in Resources */,
 				93080913185BC39600E62B42 /* ModernUserInfoPhoneEditingSeparator@2x.png in Resources */,
@@ -19227,7 +19241,6 @@
 				D0C925CF194A024000E629CA /* telegram_plane@2x.png in Resources */,
 				D03FECD119CC559D004866D6 /* SecretPhotoFire@2x.png in Resources */,
 				D061F29B1A928F670031BCBE /* PhotoEditorEnhanceTool@3x.png in Resources */,
-				93C0B3C31602533B0034D542 /* Default-568h@2x.png in Resources */,
 				D0BAF3E5193E8AC400A0093F /* TabIconContacts_Highlighted.png in Resources */,
 				D0C6AEFD1A726F2A0046833D /* SharedMediaDocumentStatusDownload@3x.png in Resources */,
 				684853BF1C174D4B00007D21 /* SettingsFaqIcon@2x.png in Resources */,
@@ -19250,14 +19263,15 @@
 				D06989B41BA7077B000CBE06 /* ConversationTitleSwitchOff@2x.png in Resources */,
 				93C2307D183CEF270071CB58 /* ModernMessageCheckmarkMedia1@2x.png in Resources */,
 				D0BFFC111BAA058000A00E38 /* CreateGroupAvatarPlaceholderIcon@3x.png in Resources */,
-				931668EB164BD14B0082AE8E /* Default@2x.png in Resources */,
 				934D715A17AD906D0099858D /* 8.m4a in Resources */,
+				24E1DDC21DED221E00BF6E1F /* Icon-60@2x.png in Resources */,
 				93269E00185E99B800FBC69F /* ModernImageBubbleHighlight@2x.png in Resources */,
 				D0AFDA6F1BCFFF3700B74DB4 /* SharedMediaEmptyMusicIcon@3x.png in Resources */,
 				68CFB9BA1A7DFEC900C15F34 /* ModernMediaItemTimelapseIcon@2x.png in Resources */,
 				930808CB185A295900E62B42 /* ModernNavigationComposeButtonIcon@2x.png in Resources */,
 				934D715917AD906D0099858D /* 9.m4a in Resources */,
 				933AA4EE1861348D000AA848 /* ModernTourButtonRightArrow@2x.png in Resources */,
+				24E1DDC11DED221E00BF6E1F /* Icon-40@2x.png in Resources */,
 				D0C925C3194A024000E629CA /* powerful_infinity@2x.png in Resources */,
 				D055A7DE1A68474C00A1D48C /* SharedMediaGenericIcon@2x.png in Resources */,
 				934134BE18551FF500480294 /* builtin-wallpaper-3-thumbnail.jpg in Resources */,
@@ -19277,9 +19291,9 @@
 				681EAD3E1A2A3B5900E7C40C /* PhotoEditorSaturationTool@3x.png in Resources */,
 				D0249B231ABF5ACF0076ECBF /* GoogleDriveFile@2x.png in Resources */,
 				D058B6421AC229FE00C995C3 /* ModernMessageLocationPin@3x.png in Resources */,
-				D09EE2E2193A95ED00980617 /* iPad-Landscape@2x.png in Resources */,
 				D0DCF6141AF033EA00D5B7A1 /* PhotoEditorCaption@2x.png in Resources */,
 				D00C71B2193F482E0005349C /* ModernBubbleIncomingPartialHighlightedPad.png in Resources */,
+				24E1DDC81DED221E00BF6E1F /* Icon.png in Resources */,
 				93064E011833C5EA0024C05A /* NavigationBackButton_Highlighted@2x.png in Resources */,
 				D0580ABD1B0EB4E800E8235B /* StickerKeyboardRecentTab@1x.png in Resources */,
 				686ED2921BF0F458001F2F96 /* MediaGroupSlomo@2x.png in Resources */,
@@ -19288,7 +19302,6 @@
 				D06989B51BA7077B000CBE06 /* ConversationTitleSwitchOff@3x.png in Resources */,
 				681EAD341A2A3B5900E7C40C /* PhotoEditorFilters@2x.png in Resources */,
 				D086968D1943698900770FE7 /* ModernAuthCountryButton@2x~ipad.png in Resources */,
-				D09EE2E1193A95ED00980617 /* iPad-Portrait@2x.png in Resources */,
 				D0D97D871B3B99F5003457CD /* MusicPlayerControlPause@2x.png in Resources */,
 				9386E8AB185DE9CC00930205 /* ModernAuthCountryButtonHighlighted@2x.png in Resources */,
 				93992D8F182A706C00F29746 /* ModernBubbleIncomingPartial@2x.png in Resources */,
@@ -19321,12 +19334,14 @@
 				D0AAD1FC1964B6F30022B101 /* BroadcastLargeAvatarIcon.png in Resources */,
 				68521C8A1BCE80A100B8A6FA /* MediaVideo@2x.png in Resources */,
 				9352995017A13D6F006D58FE /* ProgressLoupeFrame@2x.png in Resources */,
+				24E1DDCB1DED221E00BF6E1F /* iPad-Landscape@2x.png in Resources */,
 				686ED28D1BF0F458001F2F96 /* MediaGroupBurst@2x.png in Resources */,
 				D06569F31BCEE54400282019 /* ConversationChannelInlineShareIcon@3x.png in Resources */,
 				D0C92538194915C800E629CA /* ModernMessageCheckmark1.png in Resources */,
 				D04ABBFE1A3B3C2A00869014 /* ListsDownDisclosureIndicator_Highlighted@3x.png in Resources */,
 				D0D97D7A1B3B9450003457CD /* VolumeControlSliderButton@2x.png in Resources */,
 				936219E5186466E800C52870 /* 2.m4a in Resources */,
+				24E1DDCC1DED221E00BF6E1F /* iPad-Portrait.png in Resources */,
 				D0E3C61E196361E400B133E0 /* BroadcastAvatarIcon@2x.png in Resources */,
 				D0580ABB1B0EB4E800E8235B /* StickerKeyboardRecentTab@2x.png in Resources */,
 				9340FDC1166A96E0001CFB01 /* ClockMin@2x.png in Resources */,
@@ -19365,9 +19380,11 @@
 				D08696B81943A8B300770FE7 /* pad-builtin-wallpaper-0.jpg in Resources */,
 				93C23079183CD59F0071CB58 /* ModernMessageVideoIcon@2x.png in Resources */,
 				934134B218551FF500480294 /* builtin-wallpaper-1-thumbnail.jpg in Resources */,
+				24E1DDC71DED221E00BF6E1F /* Icon-Small@2x.png in Resources */,
 				93753ECE16794367008CC2C5 /* PhoneCountries.txt in Resources */,
 				934134B018551FF500480294 /* builtin-wallpaper-0-thumbnail.jpg in Resources */,
 				93CB995D167F57900017CF09 /* PhoneFormats.dat in Resources */,
+				24E1DDCD1DED221E00BF6E1F /* iPad-Portrait@2x.png in Resources */,
 				934280C11847F347004F1C2A /* NothingFoundIcon@2x.png in Resources */,
 				D030962A1B43194B004D358E /* InlineSearchUpDisabled@2x.png in Resources */,
 				D09EE2BE193484D200980617 /* ModernBubbleOutgoingFullPad@2x.png in Resources */,
@@ -19377,7 +19394,6 @@
 				D0BAF3F8193E8AC400A0093F /* ModernConversationActionDelete_Disabled.png in Resources */,
 				9322F816178EE92D00099F0B /* CellHighlighted96@2x.png in Resources */,
 				D0FC353C1B3D52560041A938 /* MusicPlayerAlbumArtPlaceholder@2x.png in Resources */,
-				D0A516C9193FD7E9000B8984 /* iPad-Portrait.png in Resources */,
 				936219D8186460F600C52870 /* 111.m4a in Resources */,
 				D0C6AEF41A71CAE40046833D /* SharedMediaNavigationBarArrow@2x.png in Resources */,
 				68BDD5CA1BF64FCC00D45A73 /* ModernMessageAudioCancel_Notification@2x.png in Resources */,
@@ -19414,11 +19430,11 @@
 				9321E9F116A9B5C100F9D09C /* notification.caf in Resources */,
 				93C23075183C31D60071CB58 /* ModernMessageImageBorder@2x.png in Resources */,
 				688B73BC1A3CF62B00ACE286 /* PhotoEditorBlurOff.png in Resources */,
+				24E1DDC41DED221E00BF6E1F /* Icon-72@2x.png in Resources */,
 				D0AAD1FB1964B6F30022B101 /* BroadcastLargeAvatarIcon@2x.png in Resources */,
 				9321E9F216A9B5C100F9D09C /* sent.caf in Resources */,
 				D0590D8E19A78C9D0082FFC8 /* ModernMessageBroadcastIcon.png in Resources */,
 				D0BAF3FD193E8AC400A0093F /* ActionsWhiteIcon.png in Resources */,
-				9315E4DF186AFC52008DD74D /* Icon-40@2x.png in Resources */,
 				9322F7FE178E056300099F0B /* DialogList_Muted@2x.png in Resources */,
 				D0C925411949172000E629CA /* ImagePickerThumbnalSelect.png in Resources */,
 				D06293931C6AAC250096915D /* InputMicRecordingOverlay@3x.png in Resources */,
@@ -19472,6 +19488,7 @@
 				93080911185B771200E62B42 /* ModernMenuAddIcon@2x.png in Resources */,
 				9386E8AC185DE9CC00930205 /* ModernAuthCountryButton@2x.png in Resources */,
 				D0BAF3E8193E8AC400A0093F /* TabIconMessages.png in Resources */,
+				24E1DDC31DED221E00BF6E1F /* Icon-72.png in Resources */,
 				93F3A0FE1821B6B60005EB98 /* ModernConversationAttach@2x.png in Resources */,
 				936219DF186460F600C52870 /* 105.m4a in Resources */,
 				93A109A017034DA600FE4F89 /* ImagePickerThumbnalSelect@2x.png in Resources */,
@@ -19479,7 +19496,6 @@
 				681EAD3C1A2A3B5900E7C40C /* PhotoEditorSaturationTool.png in Resources */,
 				93A109A117034DA600FE4F89 /* ImagePickerThumbnalSelect_Checked@2x.png in Resources */,
 				932E00E4184AA1100001D109 /* ModernConversationActionDelete@2x.png in Resources */,
-				D0DAA481197495A80036E709 /* Icon-72.png in Resources */,
 				68D704A71C5BDF6100F25436 /* MusicPlayerControlRepeat@2x.png in Resources */,
 				D0249B021ABCAC280076ECBF /* CalloutDrivingIcon@2x.png in Resources */,
 				933AA4C7186101A5000AA848 /* SearchBarIconLight@2x.png in Resources */,
@@ -19504,13 +19520,13 @@
 				932E00FC184BFACE0001D109 /* ModernMessageContactAdd_Incoming@2x.png in Resources */,
 				93ED9EFE1863616B00E22F84 /* ModernConversationEmptyListLockIcon@2x.png in Resources */,
 				D0EA69101A059C3300D1F747 /* ModernMessageInstagramLogoPlaceholder@2x.png in Resources */,
-				D0D443B8195315D500CF2A7E /* Icon-76@2x.png in Resources */,
 				D0C80D691A960B2A00D5DF8A /* ChatListLock_UnlockedTop@2x.png in Resources */,
 				68521C861BCE80A100B8A6FA /* MediaLocation@2x.png in Resources */,
 				D0249B031ABCAC280076ECBF /* FileHowToScheme@2x.png in Resources */,
 				D0249AFB1ABCAC280076ECBF /* CalloutAccessory@2x.png in Resources */,
 				D03EF6D21A4CE4CF00ABEF35 /* StickerPanelPopupMiddle@2x.png in Resources */,
 				D0351A691B08DE3C0040533C /* private_door@2x.png in Resources */,
+				24E6098C1DED5F0500E86228 /* ImageResource.xcassets in Resources */,
 				D00C7198193F3FD40005349C /* ModernBubbleIncomingPartialHighlightedPad@2x.png in Resources */,
 				D02550591B3C75DA005F105A /* MusicPlayerControlPlay@2x.png in Resources */,
 				D0BAF3E7193E8AC400A0093F /* TabIconMessages_Highlighted.png in Resources */,
@@ -19574,7 +19590,6 @@
 				D051AFCC1AF7D4BE003AFD52 /* ConversationInputFieldKeyboardIcon@3x.png in Resources */,
 				934280DA18490569004F1C2A /* ModernMessageSelectionUnchecked@2x.png in Resources */,
 				D046965A18A273AC009764B2 /* ModernConversationTitlePanelClose@2x.png in Resources */,
-				D0DAA483197495EA0036E709 /* Icon-72@2x.png in Resources */,
 				9302CA31171B581200C8559D /* VideoSliderForeground@2x.png in Resources */,
 				93F3A0FA1821B6AC0005EB98 /* ModernBubbleIncomingFull@2x.png in Resources */,
 				936219DC186460F600C52870 /* 108.m4a in Resources */,
@@ -19591,6 +19606,7 @@
 				D0BAF3E3193E8AC400A0093F /* ModernConversationMicButton.png in Resources */,
 				936219E0186460F600C52870 /* 104.m4a in Resources */,
 				93269DFA185E922500FBC69F /* ModernBubbleIncomingPartialHighlighted@2x.png in Resources */,
+				24E1DDCA1DED221E00BF6E1F /* iPad-Landscape.png in Resources */,
 				93DA959A171C6A4600A69D64 /* PlayButtonBig_Highlighted@2x.png in Resources */,
 				936219E71864693C00C52870 /* 1.m4a in Resources */,
 				93DA959B171C6A4600A69D64 /* PlayButtonBig@2x.png in Resources */,
@@ -19608,12 +19624,14 @@
 				681EAD2B1A2A3B5900E7C40C /* PhotoEditorContrastTool.png in Resources */,
 				D0DCF5381AED327600D5B7A1 /* NavigationBackArrowNormal@2x.png in Resources */,
 				6808EA921BADBD7C00D8E50E /* PhotoEditorFadeTool@2x.png in Resources */,
+				24E1DDC91DED221E00BF6E1F /* Icon@2x.png in Resources */,
 				6811AEA71A3A8592009309A3 /* PhotoEditorCropCorners@2x.png in Resources */,
 				681EAD411A2A3B5900E7C40C /* PhotoEditorShadowsTool@3x.png in Resources */,
 				9341B0211851E89300D1195B /* ModernMenuCheck@2x.png in Resources */,
 				D0D95BCE19D438DC00047005 /* SecretPhotoCheckMask.png in Resources */,
 				D06989A81BA5D770000CBE06 /* MessageInlineViewCountIconOutgoing@2x.png in Resources */,
 				D08696B41943A8B300770FE7 /* pad-builtin-wallpaper-1-thumbnail.jpg in Resources */,
+				24E1DDC01DED221E00BF6E1F /* Default@2x.png in Resources */,
 				683A05E51BFBCC0700D9A3DD /* NotificationLockIcon@2x.png in Resources */,
 				D030962C1B43194B004D358E /* InlineSearchDownDisabled@2x.png in Resources */,
 				68521C841BCE80A100B8A6FA /* MediaFile@2x.png in Resources */,
@@ -19664,13 +19682,11 @@
 				D0ECB9F91BBBED3A005C5525 /* ChannelVerifiedIconMedium@2x.png in Resources */,
 				D051AFCD1AF7D4BE003AFD52 /* ConversationInputFieldKeyboardIcon@2x.png in Resources */,
 				D0590D9119A78C9D0082FFC8 /* ModernMessageBroadcastIconWhite@2x.png in Resources */,
-				9315E4E5186AFE7A008DD74D /* Icon-Small@2x.png in Resources */,
 				D025669E1AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon@3x.png in Resources */,
 				936219D9186460F600C52870 /* 110.m4a in Resources */,
 				930AD09E173C120D003DABCE /* MapCalloutCenter_Highlighted@2x.png in Resources */,
 				D0D97D701B3B942A003457CD /* ModernConversationSecretAccessoryTimer@3x.png in Resources */,
 				D025669F1AD2B8E3007C19C1 /* InlineMediaInstagramVideoIcon.png in Resources */,
-				D0DAA485197496240036E709 /* Icon-76.png in Resources */,
 				930AD09F173C120D003DABCE /* MapCalloutRight_Highlighted@2x.png in Resources */,
 				D089E0A51AC5B6E9009A744B /* AuthSessionsEmptyIcon@2x.png in Resources */,
 				D0249B081ABCAC280076ECBF /* VideoScrubberRightArrow@2x.png in Resources */,
@@ -19690,6 +19706,7 @@
 				D069B1B61B3D94110034C967 /* MusicPlayerMinimizedPlay@1x.png in Resources */,
 				D0C80D661A960B2A00D5DF8A /* ChatListLock_LockedBottom@2x.png in Resources */,
 				D01D7D6319DECE2800955BDE /* Localizable.strings in Resources */,
+				24E1DDBF1DED221E00BF6E1F /* Default-568h@2x.png in Resources */,
 				930AD0AB173C2E31003DABCE /* MapCalloutArrow@2x.png in Resources */,
 				D06989AA1BA5D770000CBE06 /* MessageInlineViewCountIconIncoming@2x.png in Resources */,
 				933AA4A31860BE79000AA848 /* ModernNavigationAddButtonIcon@2x.png in Resources */,
@@ -19818,9 +19835,7 @@
 				D06F2B2D1AB1DA3200A4E214 /* ReplyHeaderThumbnailVideoPlay.png in Resources */,
 				D0C925B2194A024000E629CA /* fast_arrow@2x.png in Resources */,
 				D0C925B4194A024000E629CA /* fast_body@2x.png in Resources */,
-				9321E53917B585D7005229AC /* Icon.png in Resources */,
 				934280CB18480B63004F1C2A /* NavigationBackArrow@2x.png in Resources */,
-				93BB2237180D986600342583 /* Icon-60@2x.png in Resources */,
 				D06232B21B39D544006A4140 /* ConversationInputFieldActionsIcon@2x.png in Resources */,
 				D04ABC001A3B3C2A00869014 /* ListsDownDisclosureIndicator_Highlighted@2x.png in Resources */,
 				D0ECB9FA1BBBED3A005C5525 /* ChannelVerifiedIconSmall@2x.png in Resources */,
@@ -20470,6 +20485,7 @@
 				D09FD71F1BA9A4EE00FF0A4F /* TLRPCchannels_joinChannel.mm in Sources */,
 				D09840FC19CB9BE200CE5BB0 /* TLRPCaccount_updateProfile.mm in Sources */,
 				93EB7AB6184F8B3000891DBF /* TGModernConversationTitleIcon.m in Sources */,
+				247702FA1DEC2C2C00FB5DDB /* UIViewController+TGExtension.m in Sources */,
 				68D3C1BD1BD936E2003F8131 /* TGNotificationStickerPreviewView.m in Sources */,
 				D098409019CB9BE200CE5BB0 /* TLcontacts_Requests.mm in Sources */,
 				D0249A881ABCA60D0076ECBF /* TGMediaPickerGalleryVideoItem.m in Sources */,
@@ -22286,7 +22302,7 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -22306,9 +22322,9 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -22321,9 +22337,9 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "d2dcafba-2f65-4b5b-803e-fa45d7726083";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d2dcafba-2f65-4b5b-803e-fa45d7726083";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -22353,7 +22369,7 @@
 				IBSC_MODULE = watchkitapp_Extension;
 				INFOPLIST_FILE = Watch/App/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -22374,9 +22390,9 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = Watch/App/watchkitapp.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -22385,9 +22401,9 @@
 				IBSC_MODULE = watchkitapp_Extension;
 				INFOPLIST_FILE = Watch/App/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cec1b79c-0570-4cb8-8974-3454294e1eb9";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "cec1b79c-0570-4cb8-8974-3454294e1eb9";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -22439,6 +22455,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -22461,8 +22478,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -22485,8 +22502,9 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7405c401-c1ea-4de1-965f-c4695051d431";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7405c401-c1ea-4de1-965f-c4695051d431";
 				SKIP_INSTALL = NO;
 			};
@@ -22508,6 +22526,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -22627,7 +22646,7 @@
 					thirdparty/SSignalKit,
 				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/opus/lib",
@@ -22645,6 +22664,7 @@
 					"-DSQLITE_ENABLE_FTS3",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -22671,7 +22691,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
@@ -22705,7 +22725,7 @@
 					thirdparty/SSignalKit,
 				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/opus/lib",
@@ -22723,6 +22743,7 @@
 					"-DSQLITE_ENABLE_FTS3",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.TelegramEnterprise;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "ce29274a-b180-40d3-a08a-e3a99e02624a";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ce29274a-b180-40d3-a08a-e3a99e02624a";
